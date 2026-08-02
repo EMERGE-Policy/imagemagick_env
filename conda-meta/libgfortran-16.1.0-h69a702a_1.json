@@ -1,0 +1,36 @@
+{
+    "arch": "x86_64",
+    "build": "h69a702a_1",
+    "build_number": 1,
+    "build_string": "h69a702a_1",
+    "channel": "conda-forge",
+    "constrains": [
+        "libgfortran-ng ==16.1.0 *_1"
+    ],
+    "depends": [
+        "libgfortran5 16.1.0 h79bb938_1"
+    ],
+    "extracted_package_dir": "/data/yuqingchi/.local/share/mamba/pkgs/https/conda.anaconda.org/conda-forge/linux-64/libgfortran-16.1.0-h69a702a_1",
+    "files": [],
+    "fn": "libgfortran-16.1.0-h69a702a_1.conda",
+    "license": "GPL-3.0-only WITH GCC-exception-3.1",
+    "link": {
+        "source": "/data/yuqingchi/.local/share/mamba/pkgs/https/conda.anaconda.org/conda-forge/linux-64/libgfortran-16.1.0-h69a702a_1",
+        "type": 1
+    },
+    "md5": "2fbed65cc90cf0724e1ec4de13696737",
+    "name": "libgfortran",
+    "package_tarball_full_path": "/data/yuqingchi/.local/share/mamba/pkgs/https/conda.anaconda.org/conda-forge/linux-64/libgfortran-16.1.0-h69a702a_1.tar.bz2",
+    "paths_data": {
+        "paths": [],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "",
+    "sha256": "9e82d410a50bd4e5e47cbbb026454c3eb543954baca4db23929575b571bf56a3",
+    "size": 28134,
+    "subdir": "linux-64",
+    "timestamp": 1785375470,
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/libgfortran-16.1.0-h69a702a_1.conda",
+    "version": "16.1.0"
+}

@@ -1,0 +1,295 @@
+{
+    "arch": "x86_64",
+    "build": "h074291d_0",
+    "build_number": 0,
+    "build_string": "h074291d_0",
+    "channel": "conda-forge",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "libgcc >=14",
+        "libstdcxx >=14",
+        "_openmp_mutex >=4.5",
+        "libzlib >=1.3.2,<2.0a0",
+        "lcms2 >=2.19.1,<3.0a0",
+        "jasper >=4.2.9,<5.0a0",
+        "libjpeg-turbo >=3.2.0,<4.0a0"
+    ],
+    "extracted_package_dir": "/data/yuqingchi/.local/share/mamba/pkgs/https/conda.anaconda.org/conda-forge/linux-64/libraw-0.22.2-h074291d_0",
+    "files": [
+        "bin/4channels",
+        "bin/dcraw_emu",
+        "bin/dcraw_half",
+        "bin/half_mt",
+        "bin/mem_image",
+        "bin/multirender_test",
+        "bin/postprocessing_benchmark",
+        "bin/raw-identify",
+        "bin/rawtextdump",
+        "bin/simple_dcraw",
+        "bin/unprocessed_raw",
+        "include/libraw/libraw.h",
+        "include/libraw/libraw_alloc.h",
+        "include/libraw/libraw_const.h",
+        "include/libraw/libraw_datastream.h",
+        "include/libraw/libraw_internal.h",
+        "include/libraw/libraw_types.h",
+        "include/libraw/libraw_version.h",
+        "lib/libraw.a",
+        "lib/libraw.so",
+        "lib/libraw.so.25",
+        "lib/libraw.so.25.0.0",
+        "lib/libraw_r.a",
+        "lib/libraw_r.so",
+        "lib/libraw_r.so.25",
+        "lib/libraw_r.so.25.0.0",
+        "lib/pkgconfig/libraw.pc",
+        "lib/pkgconfig/libraw_r.pc",
+        "share/doc/libraw/COPYRIGHT",
+        "share/doc/libraw/Changelog.txt",
+        "share/doc/libraw/LICENSE.CDDL",
+        "share/doc/libraw/LICENSE.LGPL"
+    ],
+    "fn": "libraw-0.22.2-h074291d_0.conda",
+    "license": "LGPL-2.1-only",
+    "link": {
+        "source": "/data/yuqingchi/.local/share/mamba/pkgs/https/conda.anaconda.org/conda-forge/linux-64/libraw-0.22.2-h074291d_0",
+        "type": 1
+    },
+    "md5": "a11f92bd6dd6721cce01564c7c9fdb25",
+    "name": "libraw",
+    "package_tarball_full_path": "/data/yuqingchi/.local/share/mamba/pkgs/https/conda.anaconda.org/conda-forge/linux-64/libraw-0.22.2-h074291d_0.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "bin/4channels",
+                "path_type": "hardlink",
+                "sha256": "9f31969fb37133c3020d06673b5dcc07f0873c8bdca57a25683bef01d279155a",
+                "sha256_in_prefix": "9f31969fb37133c3020d06673b5dcc07f0873c8bdca57a25683bef01d279155a",
+                "size_in_bytes": 16848
+            },
+            {
+                "_path": "bin/dcraw_emu",
+                "path_type": "hardlink",
+                "sha256": "145bd185e55a7da2f2261cfc8f20a897798604d7e03ec6e59886fdff5ac08f59",
+                "sha256_in_prefix": "145bd185e55a7da2f2261cfc8f20a897798604d7e03ec6e59886fdff5ac08f59",
+                "size_in_bytes": 30864
+            },
+            {
+                "_path": "bin/dcraw_half",
+                "path_type": "hardlink",
+                "sha256": "616439d6b9607c60bf93ec2579b346b4eda0bfbd29d4ebbc1e449e444fdc2830",
+                "sha256_in_prefix": "616439d6b9607c60bf93ec2579b346b4eda0bfbd29d4ebbc1e449e444fdc2830",
+                "size_in_bytes": 16432
+            },
+            {
+                "_path": "bin/half_mt",
+                "path_type": "hardlink",
+                "sha256": "c9f2e7b0b0bf3efd9ef7c691973d6a4a1053ba53fecdc378fa2f708a78b63e9a",
+                "sha256_in_prefix": "c9f2e7b0b0bf3efd9ef7c691973d6a4a1053ba53fecdc378fa2f708a78b63e9a",
+                "size_in_bytes": 17136
+            },
+            {
+                "_path": "bin/mem_image",
+                "path_type": "hardlink",
+                "sha256": "ac14c304d2678f5952ca160520c9217c3b8fb3584ddb021757b43a0acf440aa9",
+                "sha256_in_prefix": "ac14c304d2678f5952ca160520c9217c3b8fb3584ddb021757b43a0acf440aa9",
+                "size_in_bytes": 21904
+            },
+            {
+                "_path": "bin/multirender_test",
+                "path_type": "hardlink",
+                "sha256": "4034dfc27e4a6ffdcf68d87a6ec3e48a351a9fb3ef08bd088d2d5e73fc8385c2",
+                "sha256_in_prefix": "4034dfc27e4a6ffdcf68d87a6ec3e48a351a9fb3ef08bd088d2d5e73fc8385c2",
+                "size_in_bytes": 16816
+            },
+            {
+                "_path": "bin/postprocessing_benchmark",
+                "path_type": "hardlink",
+                "sha256": "210287b939918a3af55fdf590cd64129d1977240658fb64c387381faf62db0fe",
+                "sha256_in_prefix": "210287b939918a3af55fdf590cd64129d1977240658fb64c387381faf62db0fe",
+                "size_in_bytes": 17184
+            },
+            {
+                "_path": "bin/raw-identify",
+                "path_type": "hardlink",
+                "sha256": "7ad481d41fcaac788ee4b800f23955657ef14707a52cb6663579f843a430cc8b",
+                "sha256_in_prefix": "7ad481d41fcaac788ee4b800f23955657ef14707a52cb6663579f843a430cc8b",
+                "size_in_bytes": 43424
+            },
+            {
+                "_path": "bin/rawtextdump",
+                "path_type": "hardlink",
+                "sha256": "3e8f7910d163ffb183892ca28a3817854971c031dfc986fda37bf4ef3dca8e97",
+                "sha256_in_prefix": "3e8f7910d163ffb183892ca28a3817854971c031dfc986fda37bf4ef3dca8e97",
+                "size_in_bytes": 22544
+            },
+            {
+                "_path": "bin/simple_dcraw",
+                "path_type": "hardlink",
+                "sha256": "9c84d7a730663f8e3cf7d37d42668b806cea67cf13b2370a210d7df7cd01ae3e",
+                "sha256_in_prefix": "9c84d7a730663f8e3cf7d37d42668b806cea67cf13b2370a210d7df7cd01ae3e",
+                "size_in_bytes": 21456
+            },
+            {
+                "_path": "bin/unprocessed_raw",
+                "path_type": "hardlink",
+                "sha256": "12fc0ecb920afe8c331e8458441cb2358b38c79c4998ee20828ea1ab03f5b53c",
+                "sha256_in_prefix": "12fc0ecb920afe8c331e8458441cb2358b38c79c4998ee20828ea1ab03f5b53c",
+                "size_in_bytes": 17240
+            },
+            {
+                "_path": "include/libraw/libraw.h",
+                "path_type": "hardlink",
+                "sha256": "48b3048304f42266ddb5bb5068f69427c249d574f80d8423387906d44bcae27d",
+                "sha256_in_prefix": "48b3048304f42266ddb5bb5068f69427c249d574f80d8423387906d44bcae27d",
+                "size_in_bytes": 18773
+            },
+            {
+                "_path": "include/libraw/libraw_alloc.h",
+                "path_type": "hardlink",
+                "sha256": "e070165e315ee222114a2483d55563228cf4298c902e419f73b16cb4a75a9650",
+                "sha256_in_prefix": "e070165e315ee222114a2483d55563228cf4298c902e419f73b16cb4a75a9650",
+                "size_in_bytes": 3209
+            },
+            {
+                "_path": "include/libraw/libraw_const.h",
+                "path_type": "hardlink",
+                "sha256": "77f83993ba6fe3ec67baba0f8c9d10d333aa0c1e3463cd1e861c4477aeded8a2",
+                "sha256_in_prefix": "77f83993ba6fe3ec67baba0f8c9d10d333aa0c1e3463cd1e861c4477aeded8a2",
+                "size_in_bytes": 26371
+            },
+            {
+                "_path": "include/libraw/libraw_datastream.h",
+                "path_type": "hardlink",
+                "sha256": "382a77b9d9f3c595ee4248bbe81f44a0a548c22bf9f2bccfdbc64ce95a3d2dfd",
+                "sha256_in_prefix": "382a77b9d9f3c595ee4248bbe81f44a0a548c22bf9f2bccfdbc64ce95a3d2dfd",
+                "size_in_bytes": 10943
+            },
+            {
+                "_path": "include/libraw/libraw_internal.h",
+                "path_type": "hardlink",
+                "sha256": "50a814b8f5d8308d57d31aa616f239215042f3d4befea50c9a8af983f4bf9c27",
+                "sha256_in_prefix": "50a814b8f5d8308d57d31aa616f239215042f3d4befea50c9a8af983f4bf9c27",
+                "size_in_bytes": 11143
+            },
+            {
+                "_path": "include/libraw/libraw_types.h",
+                "path_type": "hardlink",
+                "sha256": "294f6d0c904d017d4b047fd30890e16dbd4a6b7665911b5aa1b99df7bde0aa20",
+                "sha256_in_prefix": "294f6d0c904d017d4b047fd30890e16dbd4a6b7665911b5aa1b99df7bde0aa20",
+                "size_in_bytes": 34253
+            },
+            {
+                "_path": "include/libraw/libraw_version.h",
+                "path_type": "hardlink",
+                "sha256": "b693f77b382dc4b9920625cc30671c99f336b16ba8bd4601474cebc1e7b3d0c5",
+                "sha256_in_prefix": "b693f77b382dc4b9920625cc30671c99f336b16ba8bd4601474cebc1e7b3d0c5",
+                "size_in_bytes": 2467
+            },
+            {
+                "_path": "lib/libraw.a",
+                "path_type": "hardlink",
+                "sha256": "e34beb54a848cdeb1c44f80d72be77911134fe116c686989f8475234f52ed0bf",
+                "sha256_in_prefix": "e34beb54a848cdeb1c44f80d72be77911134fe116c686989f8475234f52ed0bf",
+                "size_in_bytes": 2008078
+            },
+            {
+                "_path": "lib/libraw.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "ddb3d110f06368ac799a87ce7882d1d404cbe0821842ff52afd8932ef79237de",
+                "size_in_bytes": 16
+            },
+            {
+                "_path": "lib/libraw.so.25",
+                "path_type": "softlink",
+                "sha256_in_prefix": "ddb3d110f06368ac799a87ce7882d1d404cbe0821842ff52afd8932ef79237de",
+                "size_in_bytes": 16
+            },
+            {
+                "_path": "lib/libraw.so.25.0.0",
+                "path_type": "hardlink",
+                "sha256": "ddb3d110f06368ac799a87ce7882d1d404cbe0821842ff52afd8932ef79237de",
+                "sha256_in_prefix": "ddb3d110f06368ac799a87ce7882d1d404cbe0821842ff52afd8932ef79237de",
+                "size_in_bytes": 1347352
+            },
+            {
+                "_path": "lib/libraw_r.a",
+                "path_type": "hardlink",
+                "sha256": "e34beb54a848cdeb1c44f80d72be77911134fe116c686989f8475234f52ed0bf",
+                "sha256_in_prefix": "e34beb54a848cdeb1c44f80d72be77911134fe116c686989f8475234f52ed0bf",
+                "size_in_bytes": 2008078
+            },
+            {
+                "_path": "lib/libraw_r.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "ac222490bac8dd5ae4d9491fa9af7381d336c3d4b34d24e5c2de149969d75966",
+                "size_in_bytes": 18
+            },
+            {
+                "_path": "lib/libraw_r.so.25",
+                "path_type": "softlink",
+                "sha256_in_prefix": "ac222490bac8dd5ae4d9491fa9af7381d336c3d4b34d24e5c2de149969d75966",
+                "size_in_bytes": 18
+            },
+            {
+                "_path": "lib/libraw_r.so.25.0.0",
+                "path_type": "hardlink",
+                "sha256": "ac222490bac8dd5ae4d9491fa9af7381d336c3d4b34d24e5c2de149969d75966",
+                "sha256_in_prefix": "ac222490bac8dd5ae4d9491fa9af7381d336c3d4b34d24e5c2de149969d75966",
+                "size_in_bytes": 1347352
+            },
+            {
+                "_path": "lib/pkgconfig/libraw.pc",
+                "path_type": "hardlink",
+                "sha256": "4b5ca27ad74375ad5461134c925552ed0dd8e8243cf1d1358f20e4fd1ab97a31",
+                "sha256_in_prefix": "53fe44dfb223caeef6dc29193754fdc21fd1cac0b1311095dd0662245c21449d",
+                "size_in_bytes": 554
+            },
+            {
+                "_path": "lib/pkgconfig/libraw_r.pc",
+                "path_type": "hardlink",
+                "sha256": "0cf369c5a48fc6ea762d92e98391d5b266bbab7df19b675b294c6c7f065a2dba",
+                "sha256_in_prefix": "205478837dfbbec3f857b16b118fd010555ee6b4e35ed9e5933787a7e9426cdf",
+                "size_in_bytes": 552
+            },
+            {
+                "_path": "share/doc/libraw/COPYRIGHT",
+                "path_type": "hardlink",
+                "sha256": "574c88f5dd59414cfc896293a63defbc2d525a418ed413d7ab7dcc43cf79c509",
+                "sha256_in_prefix": "574c88f5dd59414cfc896293a63defbc2d525a418ed413d7ab7dcc43cf79c509",
+                "size_in_bytes": 1153
+            },
+            {
+                "_path": "share/doc/libraw/Changelog.txt",
+                "path_type": "hardlink",
+                "sha256": "e7593922893c92d6227a5da65ffdf92ba1cf0075d8b87068085d390e3b85f42f",
+                "sha256_in_prefix": "e7593922893c92d6227a5da65ffdf92ba1cf0075d8b87068085d390e3b85f42f",
+                "size_in_bytes": 133538
+            },
+            {
+                "_path": "share/doc/libraw/LICENSE.CDDL",
+                "path_type": "hardlink",
+                "sha256": "0e3098d2d54a12434715f6679ea408d57da5e8d613c385c58ecc6fe5d30cc81f",
+                "sha256_in_prefix": "0e3098d2d54a12434715f6679ea408d57da5e8d613c385c58ecc6fe5d30cc81f",
+                "size_in_bytes": 16906
+            },
+            {
+                "_path": "share/doc/libraw/LICENSE.LGPL",
+                "path_type": "hardlink",
+                "sha256": "eea173a556abac0370461e57e12aab266894ea6be3874c2be05fd87871f75449",
+                "sha256_in_prefix": "eea173a556abac0370461e57e12aab266894ea6be3874c2be05fd87871f75449",
+                "size_in_bytes": 24389
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "",
+    "sha256": "fa3ccb18cf22f8ac94ec4f6bfcc9fd5805bf7af11cf56bf19c27fb051b36dd6a",
+    "size": 742828,
+    "subdir": "linux-64",
+    "timestamp": 1784220858,
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/libraw-0.22.2-h074291d_0.conda",
+    "version": "0.22.2"
+}

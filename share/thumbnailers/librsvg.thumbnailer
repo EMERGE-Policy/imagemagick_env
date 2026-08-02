@@ -1,0 +1,4 @@
+[Thumbnailer Entry]
+TryExec=/data/yuqingchi/Code/AgenticVLA/third_party/imagemagick_env/bin/gdk-pixbuf-thumbnailer
+Exec=/data/yuqingchi/Code/AgenticVLA/third_party/imagemagick_env/bin/gdk-pixbuf-thumbnailer -s %s %u %o
+MimeType=image/svg+xml;image/svg+xml-compressed;

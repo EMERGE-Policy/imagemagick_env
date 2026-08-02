@@ -1,0 +1,78 @@
+{
+    "arch": "x86_64",
+    "build": "ha4b6fd6_3",
+    "build_number": 3,
+    "build_string": "ha4b6fd6_3",
+    "channel": "conda-forge",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "libegl 1.7.0 ha4b6fd6_3",
+        "libgl-devel 1.7.0 ha4b6fd6_3",
+        "xorg-libx11"
+    ],
+    "extracted_package_dir": "/data/yuqingchi/.local/share/mamba/pkgs/https/conda.anaconda.org/conda-forge/linux-64/libegl-devel-1.7.0-ha4b6fd6_3",
+    "files": [
+        "include/EGL/egl.h",
+        "include/EGL/eglext.h",
+        "include/EGL/eglplatform.h",
+        "lib/libEGL.so",
+        "lib/pkgconfig/egl.pc"
+    ],
+    "fn": "libegl-devel-1.7.0-ha4b6fd6_3.conda",
+    "license": "LicenseRef-libglvnd",
+    "link": {
+        "source": "/data/yuqingchi/.local/share/mamba/pkgs/https/conda.anaconda.org/conda-forge/linux-64/libegl-devel-1.7.0-ha4b6fd6_3",
+        "type": 1
+    },
+    "md5": "5bc6d55503483aabe8a90c5e7f49a2a4",
+    "name": "libegl-devel",
+    "package_tarball_full_path": "/data/yuqingchi/.local/share/mamba/pkgs/https/conda.anaconda.org/conda-forge/linux-64/libegl-devel-1.7.0-ha4b6fd6_3.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "include/EGL/egl.h",
+                "path_type": "hardlink",
+                "sha256": "b7fc152de7981da4e36957a8c8d085075c7366c81bbd27e920880464b87b7f7c",
+                "sha256_in_prefix": "b7fc152de7981da4e36957a8c8d085075c7366c81bbd27e920880464b87b7f7c",
+                "size_in_bytes": 19286
+            },
+            {
+                "_path": "include/EGL/eglext.h",
+                "path_type": "hardlink",
+                "sha256": "fbc70471a706d5c36427f032fa528de72bb0cfa2efb278d82b6bf2f675543295",
+                "sha256_in_prefix": "fbc70471a706d5c36427f032fa528de72bb0cfa2efb278d82b6bf2f675543295",
+                "size_in_bytes": 71951
+            },
+            {
+                "_path": "include/EGL/eglplatform.h",
+                "path_type": "hardlink",
+                "sha256": "1081d0dd1099f5f0367d21c2949e3be344d3fe37c41e7cab907b12ef71f95703",
+                "sha256_in_prefix": "1081d0dd1099f5f0367d21c2949e3be344d3fe37c41e7cab907b12ef71f95703",
+                "size_in_bytes": 5011
+            },
+            {
+                "_path": "lib/libEGL.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "165cc6f3afeeb719a5a487136901b8ceab7148c59856670bcd7d723286c8e4f9",
+                "size_in_bytes": 93424
+            },
+            {
+                "_path": "lib/pkgconfig/egl.pc",
+                "path_type": "hardlink",
+                "sha256": "d384908b28e8044fcc9f50c8f206e01549515b1e57f93dbd441717450168a2e5",
+                "sha256_in_prefix": "a4de4a4e131effd32426e459ff800e0f0042a32de4ce418552cfa0c30ee8827f",
+                "size_in_bytes": 422
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "",
+    "sha256": "e4b46919c9bb65930bce238bd2736110ed7b8c30e5cd5394e4e1edb48de54843",
+    "size": 31718,
+    "subdir": "linux-64",
+    "timestamp": 1779728222,
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/libegl-devel-1.7.0-ha4b6fd6_3.conda",
+    "version": "1.7.0"
+}

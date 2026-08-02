@@ -1,0 +1,322 @@
+{
+    "arch": "x86_64",
+    "build": "gpl_h214e2e5_100",
+    "build_number": 100,
+    "build_string": "gpl_h214e2e5_100",
+    "channel": "conda-forge",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "aom >=3.14.1,<3.15.0a0",
+        "dav1d >=1.2.1,<1.2.2.0a0",
+        "libavif16 >=1.4.2,<2.0a0",
+        "libde265 >=1.1.1,<1.1.2.0a0",
+        "libgcc >=14",
+        "libstdcxx >=14",
+        "x265 >=3.5,<3.6.0a0"
+    ],
+    "extracted_package_dir": "/data/yuqingchi/.local/share/mamba/pkgs/https/conda.anaconda.org/conda-forge/linux-64/libheif-1.23.1-gpl_h214e2e5_100",
+    "files": [
+        "include/libheif/heif.h",
+        "include/libheif/heif_aux_images.h",
+        "include/libheif/heif_brands.h",
+        "include/libheif/heif_color.h",
+        "include/libheif/heif_components.h",
+        "include/libheif/heif_context.h",
+        "include/libheif/heif_cxx.h",
+        "include/libheif/heif_decoding.h",
+        "include/libheif/heif_encoding.h",
+        "include/libheif/heif_entity_groups.h",
+        "include/libheif/heif_error.h",
+        "include/libheif/heif_export.h",
+        "include/libheif/heif_image.h",
+        "include/libheif/heif_image_handle.h",
+        "include/libheif/heif_items.h",
+        "include/libheif/heif_library.h",
+        "include/libheif/heif_metadata.h",
+        "include/libheif/heif_omaf.h",
+        "include/libheif/heif_plugin.h",
+        "include/libheif/heif_properties.h",
+        "include/libheif/heif_regions.h",
+        "include/libheif/heif_security.h",
+        "include/libheif/heif_sequences.h",
+        "include/libheif/heif_tai_timestamps.h",
+        "include/libheif/heif_text.h",
+        "include/libheif/heif_tiling.h",
+        "include/libheif/heif_uncompressed.h",
+        "include/libheif/heif_version.h",
+        "lib/cmake/libheif/libheif-config-release.cmake",
+        "lib/cmake/libheif/libheif-config-version.cmake",
+        "lib/cmake/libheif/libheif-config.cmake",
+        "lib/libheif.so",
+        "lib/libheif.so.1",
+        "lib/libheif.so.1.23.1",
+        "lib/pkgconfig/libheif.pc"
+    ],
+    "fn": "libheif-1.23.1-gpl_h214e2e5_100.conda",
+    "license": "LGPL-3.0-or-later",
+    "license_family": "LGPL",
+    "link": {
+        "source": "/data/yuqingchi/.local/share/mamba/pkgs/https/conda.anaconda.org/conda-forge/linux-64/libheif-1.23.1-gpl_h214e2e5_100",
+        "type": 1
+    },
+    "md5": "20aacdfbd0eb4b8ebbd0e0536f42e95b",
+    "name": "libheif",
+    "package_tarball_full_path": "/data/yuqingchi/.local/share/mamba/pkgs/https/conda.anaconda.org/conda-forge/linux-64/libheif-1.23.1-gpl_h214e2e5_100.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "include/libheif/heif.h",
+                "path_type": "hardlink",
+                "sha256": "cb0bb43ff20199d1d6347af7c342ef8795dcf6cc517bd498c114b59f359af8fd",
+                "sha256_in_prefix": "cb0bb43ff20199d1d6347af7c342ef8795dcf6cc517bd498c114b59f359af8fd",
+                "size_in_bytes": 1419
+            },
+            {
+                "_path": "include/libheif/heif_aux_images.h",
+                "path_type": "hardlink",
+                "sha256": "6562113cab34ee4f7e1ce68ab7a01062b80000f35db7e8e2fbf10720bc5ab2be",
+                "sha256_in_prefix": "6562113cab34ee4f7e1ce68ab7a01062b80000f35db7e8e2fbf10720bc5ab2be",
+                "size_in_bytes": 7258
+            },
+            {
+                "_path": "include/libheif/heif_brands.h",
+                "path_type": "hardlink",
+                "sha256": "46437c68fc142fd73f15e88ebc4ed8ffad068a69a4d6a64747a5791825bf71cd",
+                "sha256_in_prefix": "46437c68fc142fd73f15e88ebc4ed8ffad068a69a4d6a64747a5791825bf71cd",
+                "size_in_bytes": 10794
+            },
+            {
+                "_path": "include/libheif/heif_color.h",
+                "path_type": "hardlink",
+                "sha256": "060f3cf89acfa2279f5a713f337fd40b9233ae7b8426046148d793dbfd589e68",
+                "sha256_in_prefix": "060f3cf89acfa2279f5a713f337fd40b9233ae7b8426046148d793dbfd589e68",
+                "size_in_bytes": 19863
+            },
+            {
+                "_path": "include/libheif/heif_components.h",
+                "path_type": "hardlink",
+                "sha256": "e24f82097e1efc0a319497ed252b8c3a8200a3d71ed1073376fa15a3c3f08a29",
+                "sha256_in_prefix": "e24f82097e1efc0a319497ed252b8c3a8200a3d71ed1073376fa15a3c3f08a29",
+                "size_in_bytes": 9911
+            },
+            {
+                "_path": "include/libheif/heif_context.h",
+                "path_type": "hardlink",
+                "sha256": "8458bf8b736726a71249e717c3633706a01e6efe47f8a80dbbe117b750c1d49e",
+                "sha256_in_prefix": "8458bf8b736726a71249e717c3633706a01e6efe47f8a80dbbe117b750c1d49e",
+                "size_in_bytes": 13740
+            },
+            {
+                "_path": "include/libheif/heif_cxx.h",
+                "path_type": "hardlink",
+                "sha256": "73d510ce199bd969437f38e5829b10c0d0bddfadc1148b4a43abfc1572f1b12c",
+                "sha256_in_prefix": "73d510ce199bd969437f38e5829b10c0d0bddfadc1148b4a43abfc1572f1b12c",
+                "size_in_bytes": 45061
+            },
+            {
+                "_path": "include/libheif/heif_decoding.h",
+                "path_type": "hardlink",
+                "sha256": "ca54f2ed3eec88ca8412b2b40ccf735449e68e8f111db50b238cd084ef0cd87a",
+                "sha256_in_prefix": "ca54f2ed3eec88ca8412b2b40ccf735449e68e8f111db50b238cd084ef0cd87a",
+                "size_in_bytes": 8784
+            },
+            {
+                "_path": "include/libheif/heif_encoding.h",
+                "path_type": "hardlink",
+                "sha256": "fe6bacb0785411db78613ce75991aee60d6d58dbb75766b387ff2230b0b96d55",
+                "sha256_in_prefix": "fe6bacb0785411db78613ce75991aee60d6d58dbb75766b387ff2230b0b96d55",
+                "size_in_bytes": 17646
+            },
+            {
+                "_path": "include/libheif/heif_entity_groups.h",
+                "path_type": "hardlink",
+                "sha256": "c78539a70a03d4199d358464cea3c3e58afa03ef368600bda3dc360c6f887bf0",
+                "sha256_in_prefix": "c78539a70a03d4199d358464cea3c3e58afa03ef368600bda3dc360c6f887bf0",
+                "size_in_bytes": 1895
+            },
+            {
+                "_path": "include/libheif/heif_error.h",
+                "path_type": "hardlink",
+                "sha256": "f10e0394364c6ea717facdfd4a2379b9302a3aa274cbcebe253f61ea25d0c14a",
+                "sha256_in_prefix": "f10e0394364c6ea717facdfd4a2379b9302a3aa274cbcebe253f61ea25d0c14a",
+                "size_in_bytes": 9049
+            },
+            {
+                "_path": "include/libheif/heif_export.h",
+                "path_type": "hardlink",
+                "sha256": "040d86081b316bcd1b4c6dc24e919e58b318784c6a9ddf7497efbc5cfdb384c5",
+                "sha256_in_prefix": "040d86081b316bcd1b4c6dc24e919e58b318784c6a9ddf7497efbc5cfdb384c5",
+                "size_in_bytes": 1808
+            },
+            {
+                "_path": "include/libheif/heif_image.h",
+                "path_type": "hardlink",
+                "sha256": "efd502e52e7566eb3e6e96e46676a7f6cbfb054615ac1373d962d835463116fb",
+                "sha256_in_prefix": "efd502e52e7566eb3e6e96e46676a7f6cbfb054615ac1373d962d835463116fb",
+                "size_in_bytes": 16992
+            },
+            {
+                "_path": "include/libheif/heif_image_handle.h",
+                "path_type": "hardlink",
+                "sha256": "176a499bb56358ea3e2c6f168091c3cc17fbb3e88ac703d75916a64496fd9380",
+                "sha256_in_prefix": "176a499bb56358ea3e2c6f168091c3cc17fbb3e88ac703d75916a64496fd9380",
+                "size_in_bytes": 7705
+            },
+            {
+                "_path": "include/libheif/heif_items.h",
+                "path_type": "hardlink",
+                "sha256": "e9ba2b41cee7bb5c36e91e6c60c8e197c1edeb19b1ab4e8ebc1cb8757ffe1e49",
+                "sha256_in_prefix": "e9ba2b41cee7bb5c36e91e6c60c8e197c1edeb19b1ab4e8ebc1cb8757ffe1e49",
+                "size_in_bytes": 9842
+            },
+            {
+                "_path": "include/libheif/heif_library.h",
+                "path_type": "hardlink",
+                "sha256": "ae7ae3a2759b15323fc5ba526faef452b3aa25c4762feb58d8cfdbce71551b1c",
+                "sha256_in_prefix": "ae7ae3a2759b15323fc5ba526faef452b3aa25c4762feb58d8cfdbce71551b1c",
+                "size_in_bytes": 8018
+            },
+            {
+                "_path": "include/libheif/heif_metadata.h",
+                "path_type": "hardlink",
+                "sha256": "7ec7bba47564818ce3058dfa718e0fe2ab4279607bdd171afbb8fcecbe71ad5a",
+                "sha256_in_prefix": "7ec7bba47564818ce3058dfa718e0fe2ab4279607bdd171afbb8fcecbe71ad5a",
+                "size_in_bytes": 6225
+            },
+            {
+                "_path": "include/libheif/heif_omaf.h",
+                "path_type": "hardlink",
+                "sha256": "a29017bcae91aaacbbb46769535c45a6bf467df9aa1b27d65a867c04fe655efe",
+                "sha256_in_prefix": "a29017bcae91aaacbbb46769535c45a6bf467df9aa1b27d65a867c04fe655efe",
+                "size_in_bytes": 3681
+            },
+            {
+                "_path": "include/libheif/heif_plugin.h",
+                "path_type": "hardlink",
+                "sha256": "72047eda37a2fa616d8c431b1c699f582ef9e4a8b303d39ea79e50a15dd31204",
+                "sha256_in_prefix": "72047eda37a2fa616d8c431b1c699f582ef9e4a8b303d39ea79e50a15dd31204",
+                "size_in_bytes": 13430
+            },
+            {
+                "_path": "include/libheif/heif_properties.h",
+                "path_type": "hardlink",
+                "sha256": "2a3779aa0cf57b4bfa5313cdd96090d8afa394a9e89b0a0e9f477be1a34bc7e8",
+                "sha256_in_prefix": "2a3779aa0cf57b4bfa5313cdd96090d8afa394a9e89b0a0e9f477be1a34bc7e8",
+                "size_in_bytes": 23806
+            },
+            {
+                "_path": "include/libheif/heif_regions.h",
+                "path_type": "hardlink",
+                "sha256": "a9488e9fd43cb627568cd1564500778f6815c2dcff34c49c68a88189833c9984",
+                "sha256_in_prefix": "a9488e9fd43cb627568cd1564500778f6815c2dcff34c49c68a88189833c9984",
+                "size_in_bytes": 38812
+            },
+            {
+                "_path": "include/libheif/heif_security.h",
+                "path_type": "hardlink",
+                "sha256": "522bd9a526c74f73a788ad7ca652d5a4d8969da3bf985e8ac996ba7fe51bc3b7",
+                "sha256_in_prefix": "522bd9a526c74f73a788ad7ca652d5a4d8969da3bf985e8ac996ba7fe51bc3b7",
+                "size_in_bytes": 4181
+            },
+            {
+                "_path": "include/libheif/heif_sequences.h",
+                "path_type": "hardlink",
+                "sha256": "8183b43aaa1eef74e0c36d5658cce3cd0681f8258735bd8bd1e6273d43506209",
+                "sha256_in_prefix": "8183b43aaa1eef74e0c36d5658cce3cd0681f8258735bd8bd1e6273d43506209",
+                "size_in_bytes": 26819
+            },
+            {
+                "_path": "include/libheif/heif_tai_timestamps.h",
+                "path_type": "hardlink",
+                "sha256": "d450e3666c2425732c2987012a845c58ab8448459429a0b951694a0e2716787d",
+                "sha256_in_prefix": "d450e3666c2425732c2987012a845c58ab8448459429a0b951694a0e2716787d",
+                "size_in_bytes": 7798
+            },
+            {
+                "_path": "include/libheif/heif_text.h",
+                "path_type": "hardlink",
+                "sha256": "e3f81e8234e51211bc62c2eeca290fefac6193854b50a58d9f7ab88de29b4b28",
+                "sha256_in_prefix": "e3f81e8234e51211bc62c2eeca290fefac6193854b50a58d9f7ab88de29b4b28",
+                "size_in_bytes": 5502
+            },
+            {
+                "_path": "include/libheif/heif_tiling.h",
+                "path_type": "hardlink",
+                "sha256": "d49cf2039844ad4a0161e402ba75937a8580ed78f8b10ee765cdcbdb383d85a5",
+                "sha256_in_prefix": "d49cf2039844ad4a0161e402ba75937a8580ed78f8b10ee765cdcbdb383d85a5",
+                "size_in_bytes": 5443
+            },
+            {
+                "_path": "include/libheif/heif_uncompressed.h",
+                "path_type": "hardlink",
+                "sha256": "7729848e855012396836cf8798f04aa25aa094887c75a81b7d381250ab6612b0",
+                "sha256_in_prefix": "7729848e855012396836cf8798f04aa25aa094887c75a81b7d381250ab6612b0",
+                "size_in_bytes": 5017
+            },
+            {
+                "_path": "include/libheif/heif_version.h",
+                "path_type": "hardlink",
+                "sha256": "5d7d003d2d15871c66eb245445cf07d1dbdad228609baf981c7e735b72ff3fb1",
+                "sha256_in_prefix": "7340e6defb990220f44102922391ebe016b4570c312eef6698f91ea015d5890d",
+                "size_in_bytes": 1456
+            },
+            {
+                "_path": "lib/cmake/libheif/libheif-config-release.cmake",
+                "path_type": "hardlink",
+                "sha256": "05f15a99ae4e8d8db086df9a754a64be9616c1100401e7f6f64238fab3b72a43",
+                "sha256_in_prefix": "05f15a99ae4e8d8db086df9a754a64be9616c1100401e7f6f64238fab3b72a43",
+                "size_in_bytes": 851
+            },
+            {
+                "_path": "lib/cmake/libheif/libheif-config-version.cmake",
+                "path_type": "hardlink",
+                "sha256": "39b097aaee55dad8723a6ff5c7f88697a05dc9b3d965890c3d5b0b33030c8573",
+                "sha256_in_prefix": "39b097aaee55dad8723a6ff5c7f88697a05dc9b3d965890c3d5b0b33030c8573",
+                "size_in_bytes": 3280
+            },
+            {
+                "_path": "lib/cmake/libheif/libheif-config.cmake",
+                "path_type": "hardlink",
+                "sha256": "0efcb9cbbb81d09b283e3e1321cacc530000aafa5b052f430dfaf9a3004a6d2c",
+                "sha256_in_prefix": "0efcb9cbbb81d09b283e3e1321cacc530000aafa5b052f430dfaf9a3004a6d2c",
+                "size_in_bytes": 4142
+            },
+            {
+                "_path": "lib/libheif.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "d0985eb77375119500f4f94efdd096a301cfbef156a1bbc1f153cbb8c22c73e2",
+                "size_in_bytes": 2840864
+            },
+            {
+                "_path": "lib/libheif.so.1",
+                "path_type": "softlink",
+                "sha256_in_prefix": "d0985eb77375119500f4f94efdd096a301cfbef156a1bbc1f153cbb8c22c73e2",
+                "size_in_bytes": 2840864
+            },
+            {
+                "_path": "lib/libheif.so.1.23.1",
+                "path_type": "hardlink",
+                "sha256": "f3ad2eea53465549c157abd8598af17304a5bb8872750f5622587240346806a0",
+                "sha256_in_prefix": "d0985eb77375119500f4f94efdd096a301cfbef156a1bbc1f153cbb8c22c73e2",
+                "size_in_bytes": 2840864
+            },
+            {
+                "_path": "lib/pkgconfig/libheif.pc",
+                "path_type": "hardlink",
+                "sha256": "4b99bc1fcc285f4501388e7fe6341c556c4fc58b08d2d471d6e125a713e1b748",
+                "sha256_in_prefix": "34d56059af3e2cb78fb2d7a62c67402ccd229e6d37db6c900f603d021a7a144b",
+                "size_in_bytes": 602
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "",
+    "sha256": "44aab7b239cd1e6ecaec10433289ad612112ec175b420844472f16fef6c93d1e",
+    "size": 915493,
+    "subdir": "linux-64",
+    "timestamp": 1784841356,
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/libheif-1.23.1-gpl_h214e2e5_100.conda",
+    "version": "1.23.1"
+}

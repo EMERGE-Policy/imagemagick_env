@@ -1,0 +1,8 @@
+
+datadir=/data/yuqingchi/Code/AgenticVLA/third_party/imagemagick_env/share
+xkb_root=/data/yuqingchi/Code/AgenticVLA/third_party/imagemagick_env/share/xkeyboard-config-2
+xkb_base=/data/yuqingchi/Code/AgenticVLA/third_party/imagemagick_env/share/X11/xkb
+
+Name: XKeyboardConfig
+Description: X Keyboard configuration data
+Version: 2.48

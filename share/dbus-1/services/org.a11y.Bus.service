@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=org.a11y.Bus
+Exec=/data/yuqingchi/Code/AgenticVLA/third_party/imagemagick_env/libexec/at-spi-bus-launcher
+SystemdService=at-spi-dbus-bus.service

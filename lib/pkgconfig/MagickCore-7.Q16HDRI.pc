@@ -1,0 +1,15 @@
+prefix=/data/yuqingchi/Code/AgenticVLA/third_party/imagemagick_env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/ImageMagick-7
+includearchdir=/data/yuqingchi/Code/AgenticVLA/third_party/imagemagick_env/include/ImageMagick-7
+libname=MagickCore-7.Q16HDRI
+moduledir=${exec_prefix}/lib/ImageMagick-7.1.2/modules-Q16HDRI
+ 
+Name: MagickCore
+Description: MagickCore - C API for ImageMagick (ABI Q16HDRI)
+URL: https://github.com/ImageMagick
+Version: 7.1.2
+Cflags: -I${includearchdir} -I${includedir} -DMAGICKCORE_HDRI_ENABLE=1 -DMAGICKCORE_QUANTUM_DEPTH=16 -DMAGICKCORE_CHANNEL_MASK_DEPTH=32
+Libs: -L${libdir} -l${libname}
+Libs.private: -L${libdir} -l${libname}  -ljbig -L/data/yuqingchi/Code/AgenticVLA/third_party/imagemagick_env/lib -llcms2  -L/data/yuqingchi/Code/AgenticVLA/third_party/imagemagick_env/lib -ltiff -L/data/yuqingchi/Code/AgenticVLA/third_party/imagemagick_env/lib -lfreetype  -L/data/yuqingchi/Code/AgenticVLA/third_party/imagemagick_env/lib -ljpeg -L/data/yuqingchi/Code/AgenticVLA/third_party/imagemagick_env/lib -ljxl -ljxl_threads   -L/data/yuqingchi/Code/AgenticVLA/third_party/imagemagick_env/lib -lpng16   -L/data/yuqingchi/Code/AgenticVLA/third_party/imagemagick_env/lib -lfftw3   -L/data/yuqingchi/Code/AgenticVLA/third_party/imagemagick_env/lib -lfontconfig -L/data/yuqingchi/Code/AgenticVLA/third_party/imagemagick_env/lib -lheif -L/data/yuqingchi/Code/AgenticVLA/third_party/imagemagick_env/lib -lwebpmux -lwebpdemux -L/data/yuqingchi/Code/AgenticVLA/third_party/imagemagick_env/lib -lwebp   -lXext -lXt   -lSM -lICE -lX11  -L/data/yuqingchi/Code/AgenticVLA/third_party/imagemagick_env/lib -llzma -lbz2 -L/data/yuqingchi/Code/AgenticVLA/third_party/imagemagick_env/lib -pthread -lOpenEXR -lOpenEXRUtil -lOpenEXRCore -lIex -lIlmThread -lImath -L/data/yuqingchi/Code/AgenticVLA/third_party/imagemagick_env/lib -lopenjp2 -L/data/yuqingchi/Code/AgenticVLA/third_party/imagemagick_env/lib -lpangocairo-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lharfbuzz -lcairo -L/data/yuqingchi/Code/AgenticVLA/third_party/imagemagick_env/lib -lraw_r -lstdc++ -fopenmp -llcms2 -L/data/yuqingchi/Code/AgenticVLA/third_party/imagemagick_env/lib -lrsvg-2 -lgio-2.0 -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0 -lcairo -L/data/yuqingchi/Code/AgenticVLA/third_party/imagemagick_env/lib -lxml2 -L/data/yuqingchi/Code/AgenticVLA/third_party/imagemagick_env/lib -lgvc -lcgraph -lcdt -L/data/yuqingchi/Code/AgenticVLA/third_party/imagemagick_env/lib -lz -L/data/yuqingchi/Code/AgenticVLA/third_party/imagemagick_env/lib -lzip    -lm    -lpthread     -lm

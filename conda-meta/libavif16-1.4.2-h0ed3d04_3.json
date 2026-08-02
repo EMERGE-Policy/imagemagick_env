@@ -1,0 +1,56 @@
+{
+    "arch": "x86_64",
+    "build": "h0ed3d04_3",
+    "build_number": 3,
+    "build_string": "h0ed3d04_3",
+    "channel": "conda-forge",
+    "constrains": [],
+    "depends": [
+        "libgcc >=14",
+        "__glibc >=2.17,<3.0.a0",
+        "svt-av1 >=4.2.0,<4.2.1.0a0",
+        "dav1d >=1.2.1,<1.2.2.0a0",
+        "aom >=3.14.1,<3.15.0a0",
+        "rav1e >=0.8.1,<0.9.0a0"
+    ],
+    "extracted_package_dir": "/data/yuqingchi/.local/share/mamba/pkgs/https/conda.anaconda.org/conda-forge/linux-64/libavif16-1.4.2-h0ed3d04_3",
+    "files": [
+        "lib/libavif.so.16",
+        "lib/libavif.so.16.4.2"
+    ],
+    "fn": "libavif16-1.4.2-h0ed3d04_3.conda",
+    "license": "BSD-2-Clause",
+    "link": {
+        "source": "/data/yuqingchi/.local/share/mamba/pkgs/https/conda.anaconda.org/conda-forge/linux-64/libavif16-1.4.2-h0ed3d04_3",
+        "type": 1
+    },
+    "md5": "1adfc4577f7994251b53a5cdc922d7c6",
+    "name": "libavif16",
+    "package_tarball_full_path": "/data/yuqingchi/.local/share/mamba/pkgs/https/conda.anaconda.org/conda-forge/linux-64/libavif16-1.4.2-h0ed3d04_3.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "lib/libavif.so.16",
+                "path_type": "softlink",
+                "sha256_in_prefix": "c71a4ad54b2f1325cd0f1948212e2e646b4c4ce540700c4a5102d0679a01393b",
+                "size_in_bytes": 17
+            },
+            {
+                "_path": "lib/libavif.so.16.4.2",
+                "path_type": "hardlink",
+                "sha256": "c71a4ad54b2f1325cd0f1948212e2e646b4c4ce540700c4a5102d0679a01393b",
+                "sha256_in_prefix": "c71a4ad54b2f1325cd0f1948212e2e646b4c4ce540700c4a5102d0679a01393b",
+                "size_in_bytes": 297088
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "",
+    "sha256": "0f7ddf0f9438d6c3dad8c344768fd546499454d7ae88070240d2097d91eeeafd",
+    "size": 165201,
+    "subdir": "linux-64",
+    "timestamp": 1784120029,
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/libavif16-1.4.2-h0ed3d04_3.conda",
+    "version": "1.4.2"
+}

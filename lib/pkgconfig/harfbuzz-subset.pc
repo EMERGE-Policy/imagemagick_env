@@ -1,0 +1,11 @@
+prefix=/data/yuqingchi/Code/AgenticVLA/third_party/imagemagick_env
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: harfbuzz-subset
+Description: HarfBuzz font subsetter
+Version: 14.2.1
+Requires: harfbuzz =  14.2.1
+Libs: -L${libdir} -lharfbuzz-subset
+Libs.private: -pthread -lm
+Cflags: -I${includedir}/harfbuzz

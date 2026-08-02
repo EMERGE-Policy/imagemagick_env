@@ -1,0 +1,13 @@
+prefix=/data/yuqingchi/Code/AgenticVLA/third_party/imagemagick_env
+exec_prefix=${prefix}
+bindir=${prefix}/bin
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+zipcmp=${bindir}/zipcmp
+
+Name: libzip
+Description: library for handling zip archives
+Version: 1.11.2
+Libs:  -L${libdir} -lzip
+Cflags: -I${includedir}

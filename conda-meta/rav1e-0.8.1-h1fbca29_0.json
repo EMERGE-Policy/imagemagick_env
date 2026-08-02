@@ -1,0 +1,77 @@
+{
+    "arch": "x86_64",
+    "build": "h1fbca29_0",
+    "build_number": 0,
+    "build_string": "h1fbca29_0",
+    "channel": "conda-forge",
+    "constrains": [
+        "__glibc >=2.17"
+    ],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "libgcc >=14"
+    ],
+    "extracted_package_dir": "/data/yuqingchi/.local/share/mamba/pkgs/https/conda.anaconda.org/conda-forge/linux-64/rav1e-0.8.1-h1fbca29_0",
+    "files": [
+        "include/rav1e/rav1e.h",
+        "lib/librav1e.so",
+        "lib/librav1e.so.0.8",
+        "lib/librav1e.so.0.8.1",
+        "lib/pkgconfig/rav1e.pc"
+    ],
+    "fn": "rav1e-0.8.1-h1fbca29_0.conda",
+    "license": "BSD-2-Clause",
+    "link": {
+        "source": "/data/yuqingchi/.local/share/mamba/pkgs/https/conda.anaconda.org/conda-forge/linux-64/rav1e-0.8.1-h1fbca29_0",
+        "type": 1
+    },
+    "md5": "d83958768626b3c8471ce032e28afcd3",
+    "name": "rav1e",
+    "package_tarball_full_path": "/data/yuqingchi/.local/share/mamba/pkgs/https/conda.anaconda.org/conda-forge/linux-64/rav1e-0.8.1-h1fbca29_0.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "include/rav1e/rav1e.h",
+                "path_type": "hardlink",
+                "sha256": "10ca9cf4c492c96969505e3404ec53190b380bcb722df30ebe91935e8da57c6d",
+                "sha256_in_prefix": "10ca9cf4c492c96969505e3404ec53190b380bcb722df30ebe91935e8da57c6d",
+                "size_in_bytes": 47606
+            },
+            {
+                "_path": "lib/librav1e.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "dee89ab52e4bd68fd15364481312e8f21741cb9c5cd380d84cc68e259e356754",
+                "size_in_bytes": 33220056
+            },
+            {
+                "_path": "lib/librav1e.so.0.8",
+                "path_type": "softlink",
+                "sha256_in_prefix": "dee89ab52e4bd68fd15364481312e8f21741cb9c5cd380d84cc68e259e356754",
+                "size_in_bytes": 33220056
+            },
+            {
+                "_path": "lib/librav1e.so.0.8.1",
+                "path_type": "hardlink",
+                "sha256": "dee89ab52e4bd68fd15364481312e8f21741cb9c5cd380d84cc68e259e356754",
+                "sha256_in_prefix": "dee89ab52e4bd68fd15364481312e8f21741cb9c5cd380d84cc68e259e356754",
+                "size_in_bytes": 33220056
+            },
+            {
+                "_path": "lib/pkgconfig/rav1e.pc",
+                "path_type": "hardlink",
+                "sha256": "705a87aba0f587f580e86b8def0f05e1638fefa305e3d237129452445ff89dcf",
+                "sha256_in_prefix": "5cf11743105190b7a041e6e97ad7fad06d0abad98660c5f6c83b1f4893fa010e",
+                "size_in_bytes": 482
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "",
+    "sha256": "cf550bbc8e5ebedb6dba9ccaead3e07bd1cb86b183644a4c853e06e4b3ad5ac7",
+    "size": 5595970,
+    "subdir": "linux-64",
+    "timestamp": 1772540833,
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/rav1e-0.8.1-h1fbca29_0.conda",
+    "version": "0.8.1"
+}

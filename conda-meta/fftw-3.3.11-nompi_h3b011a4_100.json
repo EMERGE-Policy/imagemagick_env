@@ -1,0 +1,446 @@
+{
+    "arch": "x86_64",
+    "build": "nompi_h3b011a4_100",
+    "build_number": 100,
+    "build_string": "nompi_h3b011a4_100",
+    "channel": "conda-forge",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "libgcc >=14",
+        "libgfortran",
+        "libgfortran5 >=14.3.0",
+        "libstdcxx >=14"
+    ],
+    "extracted_package_dir": "/data/yuqingchi/.local/share/mamba/pkgs/https/conda.anaconda.org/conda-forge/linux-64/fftw-3.3.11-nompi_h3b011a4_100",
+    "files": [
+        "bin/fftw-wisdom",
+        "bin/fftw-wisdom-to-conf",
+        "bin/fftwf-wisdom",
+        "bin/fftwl-wisdom",
+        "include/fftw3.f",
+        "include/fftw3.f03",
+        "include/fftw3.h",
+        "include/fftw3l.f03",
+        "include/fftw3q.f03",
+        "lib/cmake/fftw3/FFTW3Config.cmake",
+        "lib/cmake/fftw3/FFTW3ConfigVersion.cmake",
+        "lib/cmake/fftw3/FFTW3LibraryDepends.cmake",
+        "lib/cmake/fftw3/FFTW3fConfig.cmake",
+        "lib/cmake/fftw3/FFTW3fConfigVersion.cmake",
+        "lib/cmake/fftw3/FFTW3lConfig.cmake",
+        "lib/cmake/fftw3/FFTW3lConfigVersion.cmake",
+        "lib/libfftw3.so",
+        "lib/libfftw3.so.3",
+        "lib/libfftw3.so.3.7.11",
+        "lib/libfftw3_omp.so",
+        "lib/libfftw3_omp.so.3",
+        "lib/libfftw3_omp.so.3.7.11",
+        "lib/libfftw3_threads.so",
+        "lib/libfftw3_threads.so.3",
+        "lib/libfftw3_threads.so.3.7.11",
+        "lib/libfftw3f.so",
+        "lib/libfftw3f.so.3",
+        "lib/libfftw3f.so.3.7.11",
+        "lib/libfftw3f_omp.so",
+        "lib/libfftw3f_omp.so.3",
+        "lib/libfftw3f_omp.so.3.7.11",
+        "lib/libfftw3f_threads.so",
+        "lib/libfftw3f_threads.so.3",
+        "lib/libfftw3f_threads.so.3.7.11",
+        "lib/libfftw3l.so",
+        "lib/libfftw3l.so.3",
+        "lib/libfftw3l.so.3.7.11",
+        "lib/libfftw3l_omp.so",
+        "lib/libfftw3l_omp.so.3",
+        "lib/libfftw3l_omp.so.3.7.11",
+        "lib/libfftw3l_threads.so",
+        "lib/libfftw3l_threads.so.3",
+        "lib/libfftw3l_threads.so.3.7.11",
+        "lib/pkgconfig/fftw3.pc",
+        "lib/pkgconfig/fftw3f.pc",
+        "lib/pkgconfig/fftw3l.pc",
+        "share/info/fftw3.info",
+        "share/info/fftw3.info-1",
+        "share/info/fftw3.info-2",
+        "share/man/man1/fftw-wisdom-to-conf.1",
+        "share/man/man1/fftw-wisdom.1",
+        "share/man/man1/fftwf-wisdom.1",
+        "share/man/man1/fftwl-wisdom.1"
+    ],
+    "fn": "fftw-3.3.11-nompi_h3b011a4_100.conda",
+    "license": "GPL-2.0-or-later",
+    "link": {
+        "source": "/data/yuqingchi/.local/share/mamba/pkgs/https/conda.anaconda.org/conda-forge/linux-64/fftw-3.3.11-nompi_h3b011a4_100",
+        "type": 1
+    },
+    "md5": "0717f4eb3d18259358a1fa77edb18917",
+    "name": "fftw",
+    "package_tarball_full_path": "/data/yuqingchi/.local/share/mamba/pkgs/https/conda.anaconda.org/conda-forge/linux-64/fftw-3.3.11-nompi_h3b011a4_100.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "bin/fftw-wisdom",
+                "path_type": "hardlink",
+                "sha256": "2acd295e411bc1076af9632a4d97621497409439a5cac2b52b304a7608c045fe",
+                "sha256_in_prefix": "2acd295e411bc1076af9632a4d97621497409439a5cac2b52b304a7608c045fe",
+                "size_in_bytes": 61880
+            },
+            {
+                "_path": "bin/fftw-wisdom-to-conf",
+                "path_type": "hardlink",
+                "sha256": "44af0eee31833f638538610397fd6a3808b35b92d7d6931863749c8ca7b5ad82",
+                "sha256_in_prefix": "44af0eee31833f638538610397fd6a3808b35b92d7d6931863749c8ca7b5ad82",
+                "size_in_bytes": 2282
+            },
+            {
+                "_path": "bin/fftwf-wisdom",
+                "path_type": "hardlink",
+                "sha256": "8755cfb84b97c8e87b8a956351b71bd9357186ad14b9edc041942b4618d3836e",
+                "sha256_in_prefix": "8755cfb84b97c8e87b8a956351b71bd9357186ad14b9edc041942b4618d3836e",
+                "size_in_bytes": 61928
+            },
+            {
+                "_path": "bin/fftwl-wisdom",
+                "path_type": "hardlink",
+                "sha256": "e6dc2fa2b1d4c50d764b1f642fd7f2e6aebd72e7e0920296762bee20eeb4ec12",
+                "sha256_in_prefix": "e6dc2fa2b1d4c50d764b1f642fd7f2e6aebd72e7e0920296762bee20eeb4ec12",
+                "size_in_bytes": 61928
+            },
+            {
+                "_path": "include/fftw3.f",
+                "path_type": "hardlink",
+                "sha256": "1f8a5c9a48f3e3726b667970907d22e3cb0cb9fdf8ec8be7521fb798fd3befc6",
+                "sha256_in_prefix": "1f8a5c9a48f3e3726b667970907d22e3cb0cb9fdf8ec8be7521fb798fd3befc6",
+                "size_in_bytes": 2447
+            },
+            {
+                "_path": "include/fftw3.f03",
+                "path_type": "hardlink",
+                "sha256": "ff500d949ddd11d0e0e96ddcd7ddf028156f40dab7bbadaaf796932dd59bf96c",
+                "sha256_in_prefix": "ff500d949ddd11d0e0e96ddcd7ddf028156f40dab7bbadaaf796932dd59bf96c",
+                "size_in_bytes": 55343
+            },
+            {
+                "_path": "include/fftw3.h",
+                "path_type": "hardlink",
+                "sha256": "c82bf45065551f8659748f9c77d8c9dee6783ea524d579e951757ac78a926d05",
+                "sha256_in_prefix": "c82bf45065551f8659748f9c77d8c9dee6783ea524d579e951757ac78a926d05",
+                "size_in_bytes": 32208
+            },
+            {
+                "_path": "include/fftw3l.f03",
+                "path_type": "hardlink",
+                "sha256": "5f965cdac2927c1a32de56988421605c0eec8fd4dccd41a419caebf350f07fc0",
+                "sha256_in_prefix": "5f965cdac2927c1a32de56988421605c0eec8fd4dccd41a419caebf350f07fc0",
+                "size_in_bytes": 27360
+            },
+            {
+                "_path": "include/fftw3q.f03",
+                "path_type": "hardlink",
+                "sha256": "18f0f66ed36c4380cbe1c64f878b770085f4e612d02420662e6becefaf7c2a41",
+                "sha256_in_prefix": "18f0f66ed36c4380cbe1c64f878b770085f4e612d02420662e6becefaf7c2a41",
+                "size_in_bytes": 26059
+            },
+            {
+                "_path": "lib/cmake/fftw3/FFTW3Config.cmake",
+                "path_type": "hardlink",
+                "sha256": "1ba3baa2c6800590a818960b0d0b107d65280a6a710608268a796bf4fae42c2a",
+                "sha256_in_prefix": "cabc519a7a9e7be771dd4bd5ee70d721d6112ce38dd7d47e80c9b1dd5a44db0f",
+                "size_in_bytes": 1014
+            },
+            {
+                "_path": "lib/cmake/fftw3/FFTW3ConfigVersion.cmake",
+                "path_type": "hardlink",
+                "sha256": "4415fa6e30c66c9eb610620c4b65c1dbe6ef8bf25d480f579d572d8607bff477",
+                "sha256_in_prefix": "4415fa6e30c66c9eb610620c4b65c1dbe6ef8bf25d480f579d572d8607bff477",
+                "size_in_bytes": 377
+            },
+            {
+                "_path": "lib/cmake/fftw3/FFTW3LibraryDepends.cmake",
+                "path_type": "hardlink",
+                "sha256": "07747b0af378ba237516c311bb7db845e052e239200d0d628b6de8ce4fb7a0ad",
+                "sha256_in_prefix": "07747b0af378ba237516c311bb7db845e052e239200d0d628b6de8ce4fb7a0ad",
+                "size_in_bytes": 4149
+            },
+            {
+                "_path": "lib/cmake/fftw3/FFTW3fConfig.cmake",
+                "path_type": "hardlink",
+                "sha256": "066fe66426a1404925e81c6f7b73a043fb50490915c5e0accdb1ccf03a7f5958",
+                "sha256_in_prefix": "6eee7e306a44bd8998c443f2dfbeab71079588deb28cd715c292cc55317d9898",
+                "size_in_bytes": 1018
+            },
+            {
+                "_path": "lib/cmake/fftw3/FFTW3fConfigVersion.cmake",
+                "path_type": "hardlink",
+                "sha256": "4415fa6e30c66c9eb610620c4b65c1dbe6ef8bf25d480f579d572d8607bff477",
+                "sha256_in_prefix": "4415fa6e30c66c9eb610620c4b65c1dbe6ef8bf25d480f579d572d8607bff477",
+                "size_in_bytes": 377
+            },
+            {
+                "_path": "lib/cmake/fftw3/FFTW3lConfig.cmake",
+                "path_type": "hardlink",
+                "sha256": "462a6522c3411dba7a88fe87816db16a274befbc42372884350e9c6e4f122686",
+                "sha256_in_prefix": "a4d84f20ba5f1f1ae2d1239fe8e37ec35188ace2dfd11a7df00f7a4dcc284c22",
+                "size_in_bytes": 1018
+            },
+            {
+                "_path": "lib/cmake/fftw3/FFTW3lConfigVersion.cmake",
+                "path_type": "hardlink",
+                "sha256": "4415fa6e30c66c9eb610620c4b65c1dbe6ef8bf25d480f579d572d8607bff477",
+                "sha256_in_prefix": "4415fa6e30c66c9eb610620c4b65c1dbe6ef8bf25d480f579d572d8607bff477",
+                "size_in_bytes": 377
+            },
+            {
+                "_path": "lib/libfftw3.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "a87210718dd34b0fc1850259242119cef8a413f1b459ca5dbc9aafc2616c094c",
+                "size_in_bytes": 2524816
+            },
+            {
+                "_path": "lib/libfftw3.so.3",
+                "path_type": "softlink",
+                "sha256_in_prefix": "a87210718dd34b0fc1850259242119cef8a413f1b459ca5dbc9aafc2616c094c",
+                "size_in_bytes": 2524816
+            },
+            {
+                "_path": "lib/libfftw3.so.3.7.11",
+                "path_type": "hardlink",
+                "sha256": "d4c8dcb28be5c66895a3c99f86609dd32d358a219a53917cf689e604e067df17",
+                "sha256_in_prefix": "a87210718dd34b0fc1850259242119cef8a413f1b459ca5dbc9aafc2616c094c",
+                "size_in_bytes": 2524816
+            },
+            {
+                "_path": "lib/libfftw3_omp.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "51ae4ea013aea1cf78f21ccec468a019e4ed696b9dce2ac4a3420e506e9a7d00",
+                "size_in_bytes": 36256
+            },
+            {
+                "_path": "lib/libfftw3_omp.so.3",
+                "path_type": "softlink",
+                "sha256_in_prefix": "51ae4ea013aea1cf78f21ccec468a019e4ed696b9dce2ac4a3420e506e9a7d00",
+                "size_in_bytes": 36256
+            },
+            {
+                "_path": "lib/libfftw3_omp.so.3.7.11",
+                "path_type": "hardlink",
+                "sha256": "51ae4ea013aea1cf78f21ccec468a019e4ed696b9dce2ac4a3420e506e9a7d00",
+                "sha256_in_prefix": "51ae4ea013aea1cf78f21ccec468a019e4ed696b9dce2ac4a3420e506e9a7d00",
+                "size_in_bytes": 36256
+            },
+            {
+                "_path": "lib/libfftw3_threads.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "6be8e06f51516ba9fc00552488d4e087afa41c83d9edc224b6f579baeb5c082d",
+                "size_in_bytes": 41312
+            },
+            {
+                "_path": "lib/libfftw3_threads.so.3",
+                "path_type": "softlink",
+                "sha256_in_prefix": "6be8e06f51516ba9fc00552488d4e087afa41c83d9edc224b6f579baeb5c082d",
+                "size_in_bytes": 41312
+            },
+            {
+                "_path": "lib/libfftw3_threads.so.3.7.11",
+                "path_type": "hardlink",
+                "sha256": "6be8e06f51516ba9fc00552488d4e087afa41c83d9edc224b6f579baeb5c082d",
+                "sha256_in_prefix": "6be8e06f51516ba9fc00552488d4e087afa41c83d9edc224b6f579baeb5c082d",
+                "size_in_bytes": 41312
+            },
+            {
+                "_path": "lib/libfftw3f.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "2a55e9dcd2028a3ca3877996fe173c20dc4325c683e7de49ffdcff024b78f87f",
+                "size_in_bytes": 2542248
+            },
+            {
+                "_path": "lib/libfftw3f.so.3",
+                "path_type": "softlink",
+                "sha256_in_prefix": "2a55e9dcd2028a3ca3877996fe173c20dc4325c683e7de49ffdcff024b78f87f",
+                "size_in_bytes": 2542248
+            },
+            {
+                "_path": "lib/libfftw3f.so.3.7.11",
+                "path_type": "hardlink",
+                "sha256": "327598eefe7e98c4ca3791efa69a14729fdae2c65cf00553805d50d0f3592d99",
+                "sha256_in_prefix": "2a55e9dcd2028a3ca3877996fe173c20dc4325c683e7de49ffdcff024b78f87f",
+                "size_in_bytes": 2542248
+            },
+            {
+                "_path": "lib/libfftw3f_omp.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "4b1f11ec8b10f0bfbd788ffbafa1707e50d30cf1f299a64ec6c7d54c38473b2d",
+                "size_in_bytes": 36312
+            },
+            {
+                "_path": "lib/libfftw3f_omp.so.3",
+                "path_type": "softlink",
+                "sha256_in_prefix": "4b1f11ec8b10f0bfbd788ffbafa1707e50d30cf1f299a64ec6c7d54c38473b2d",
+                "size_in_bytes": 36312
+            },
+            {
+                "_path": "lib/libfftw3f_omp.so.3.7.11",
+                "path_type": "hardlink",
+                "sha256": "4b1f11ec8b10f0bfbd788ffbafa1707e50d30cf1f299a64ec6c7d54c38473b2d",
+                "sha256_in_prefix": "4b1f11ec8b10f0bfbd788ffbafa1707e50d30cf1f299a64ec6c7d54c38473b2d",
+                "size_in_bytes": 36312
+            },
+            {
+                "_path": "lib/libfftw3f_threads.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "649a794fe36dc4b1ef37a7a915a1f0bc8352a96dad3e14a47d7ec9280c61cae9",
+                "size_in_bytes": 41368
+            },
+            {
+                "_path": "lib/libfftw3f_threads.so.3",
+                "path_type": "softlink",
+                "sha256_in_prefix": "649a794fe36dc4b1ef37a7a915a1f0bc8352a96dad3e14a47d7ec9280c61cae9",
+                "size_in_bytes": 41368
+            },
+            {
+                "_path": "lib/libfftw3f_threads.so.3.7.11",
+                "path_type": "hardlink",
+                "sha256": "649a794fe36dc4b1ef37a7a915a1f0bc8352a96dad3e14a47d7ec9280c61cae9",
+                "sha256_in_prefix": "649a794fe36dc4b1ef37a7a915a1f0bc8352a96dad3e14a47d7ec9280c61cae9",
+                "size_in_bytes": 41368
+            },
+            {
+                "_path": "lib/libfftw3l.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "03ecb54da238c842e3edf4a3891a3525761fda03d4f3a18276e80a1b5e55ffcd",
+                "size_in_bytes": 1176664
+            },
+            {
+                "_path": "lib/libfftw3l.so.3",
+                "path_type": "softlink",
+                "sha256_in_prefix": "03ecb54da238c842e3edf4a3891a3525761fda03d4f3a18276e80a1b5e55ffcd",
+                "size_in_bytes": 1176664
+            },
+            {
+                "_path": "lib/libfftw3l.so.3.7.11",
+                "path_type": "hardlink",
+                "sha256": "a7a423321fe4f5749b92bb46bb6f29af91d7a93deb589d75ed5b8a76eab078fe",
+                "sha256_in_prefix": "03ecb54da238c842e3edf4a3891a3525761fda03d4f3a18276e80a1b5e55ffcd",
+                "size_in_bytes": 1176664
+            },
+            {
+                "_path": "lib/libfftw3l_omp.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "46515d9b203d842f48e37c650245c6a18a8edde17d67f46b48027122f952c135",
+                "size_in_bytes": 36312
+            },
+            {
+                "_path": "lib/libfftw3l_omp.so.3",
+                "path_type": "softlink",
+                "sha256_in_prefix": "46515d9b203d842f48e37c650245c6a18a8edde17d67f46b48027122f952c135",
+                "size_in_bytes": 36312
+            },
+            {
+                "_path": "lib/libfftw3l_omp.so.3.7.11",
+                "path_type": "hardlink",
+                "sha256": "46515d9b203d842f48e37c650245c6a18a8edde17d67f46b48027122f952c135",
+                "sha256_in_prefix": "46515d9b203d842f48e37c650245c6a18a8edde17d67f46b48027122f952c135",
+                "size_in_bytes": 36312
+            },
+            {
+                "_path": "lib/libfftw3l_threads.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "fa8492eb328d0a4730d4348594eeba7192f6f1d1b3b299853fe0349fa558bde8",
+                "size_in_bytes": 41368
+            },
+            {
+                "_path": "lib/libfftw3l_threads.so.3",
+                "path_type": "softlink",
+                "sha256_in_prefix": "fa8492eb328d0a4730d4348594eeba7192f6f1d1b3b299853fe0349fa558bde8",
+                "size_in_bytes": 41368
+            },
+            {
+                "_path": "lib/libfftw3l_threads.so.3.7.11",
+                "path_type": "hardlink",
+                "sha256": "fa8492eb328d0a4730d4348594eeba7192f6f1d1b3b299853fe0349fa558bde8",
+                "sha256_in_prefix": "fa8492eb328d0a4730d4348594eeba7192f6f1d1b3b299853fe0349fa558bde8",
+                "size_in_bytes": 41368
+            },
+            {
+                "_path": "lib/pkgconfig/fftw3.pc",
+                "path_type": "hardlink",
+                "sha256": "613121ad202a14348228010e5a96d58c0cd7f4f2ead7ce3fe6c439395c8d1da3",
+                "sha256_in_prefix": "413f644ef1ce2a760634d4eaa07924b3a3b7abbdf89eae69f12f946f3fcafc54",
+                "size_in_bytes": 481
+            },
+            {
+                "_path": "lib/pkgconfig/fftw3f.pc",
+                "path_type": "hardlink",
+                "sha256": "9bde05154a0e0f2e3ed89eccae53cd37f60bcb3ea91ec6f5d31e43cd21750176",
+                "sha256_in_prefix": "823b4f8a4cdf80fce5648c402dbae2349adba625966629db0a7ee329813ca8e2",
+                "size_in_bytes": 482
+            },
+            {
+                "_path": "lib/pkgconfig/fftw3l.pc",
+                "path_type": "hardlink",
+                "sha256": "f727531e6fb557700eb9055a6b8dc48fa5797c1d17e8cf2160fde17dd80e1b6c",
+                "sha256_in_prefix": "dafce609b58148739125fa2309c33aee348e1e1d917039d2f3e0f8065a6ca937",
+                "size_in_bytes": 482
+            },
+            {
+                "_path": "share/info/fftw3.info",
+                "path_type": "hardlink",
+                "sha256": "4b58d515e4610c9da535be11a1a1b7d8dc07305da984f4930b486db19dc7d636",
+                "sha256_in_prefix": "4b58d515e4610c9da535be11a1a1b7d8dc07305da984f4930b486db19dc7d636",
+                "size_in_bytes": 6205
+            },
+            {
+                "_path": "share/info/fftw3.info-1",
+                "path_type": "hardlink",
+                "sha256": "2ec3bdf42879ac99d18ccde07e20116d807f0147df9de1431dbb87f6005cc4fe",
+                "sha256_in_prefix": "2ec3bdf42879ac99d18ccde07e20116d807f0147df9de1431dbb87f6005cc4fe",
+                "size_in_bytes": 300624
+            },
+            {
+                "_path": "share/info/fftw3.info-2",
+                "path_type": "hardlink",
+                "sha256": "5bf5fba83526418625442e7fbd289db90ab1042ac5a5f2f3d4c21fcd14697af9",
+                "sha256_in_prefix": "5bf5fba83526418625442e7fbd289db90ab1042ac5a5f2f3d4c21fcd14697af9",
+                "size_in_bytes": 86979
+            },
+            {
+                "_path": "share/man/man1/fftw-wisdom-to-conf.1",
+                "path_type": "hardlink",
+                "sha256": "24ff9a1a15c07f25a617db09531663c3687ea39746213ce5dd86fb17a03a3259",
+                "sha256_in_prefix": "24ff9a1a15c07f25a617db09531663c3687ea39746213ce5dd86fb17a03a3259",
+                "size_in_bytes": 3597
+            },
+            {
+                "_path": "share/man/man1/fftw-wisdom.1",
+                "path_type": "hardlink",
+                "sha256": "327b5308a5a207b8f42e1ab05ac70800154930dbac43aea906beb1c19fe79fd6",
+                "sha256_in_prefix": "327b5308a5a207b8f42e1ab05ac70800154930dbac43aea906beb1c19fe79fd6",
+                "size_in_bytes": 6888
+            },
+            {
+                "_path": "share/man/man1/fftwf-wisdom.1",
+                "path_type": "hardlink",
+                "sha256": "ffd2f9d9210d8b2556011c42f72305e3d93fc161d45ab0548e84260a8d83e9e5",
+                "sha256_in_prefix": "ffd2f9d9210d8b2556011c42f72305e3d93fc161d45ab0548e84260a8d83e9e5",
+                "size_in_bytes": 6901
+            },
+            {
+                "_path": "share/man/man1/fftwl-wisdom.1",
+                "path_type": "hardlink",
+                "sha256": "8887b212402fe2ab6c2ef43665c7b412f56151de528a3d4350dc1c88c4309377",
+                "sha256_in_prefix": "8887b212402fe2ab6c2ef43665c7b412f56151de528a3d4350dc1c88c4309377",
+                "size_in_bytes": 6901
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "",
+    "sha256": "6fd5d681fba20adaca771f138ac52dbf0a52e0dc2ac31b9ce7406068d102a9a7",
+    "size": 2195198,
+    "subdir": "linux-64",
+    "timestamp": 1776781721,
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/fftw-3.3.11-nompi_h3b011a4_100.conda",
+    "version": "3.3.11"
+}

@@ -1,0 +1,52 @@
+{
+    "arch": "x86_64",
+    "build": "ha4b6fd6_3",
+    "build_number": 3,
+    "build_string": "ha4b6fd6_3",
+    "channel": "conda-forge",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "libglvnd 1.7.0 ha4b6fd6_3"
+    ],
+    "extracted_package_dir": "/data/yuqingchi/.local/share/mamba/pkgs/https/conda.anaconda.org/conda-forge/linux-64/libopengl-1.7.0-ha4b6fd6_3",
+    "files": [
+        "lib/libOpenGL.so.0",
+        "lib/libOpenGL.so.0.0.0"
+    ],
+    "fn": "libopengl-1.7.0-ha4b6fd6_3.conda",
+    "license": "LicenseRef-libglvnd",
+    "link": {
+        "source": "/data/yuqingchi/.local/share/mamba/pkgs/https/conda.anaconda.org/conda-forge/linux-64/libopengl-1.7.0-ha4b6fd6_3",
+        "type": 1
+    },
+    "md5": "c2bd8055a2e2dce7a7f32cfd02101fb6",
+    "name": "libopengl",
+    "package_tarball_full_path": "/data/yuqingchi/.local/share/mamba/pkgs/https/conda.anaconda.org/conda-forge/linux-64/libopengl-1.7.0-ha4b6fd6_3.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "lib/libOpenGL.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "15f935c231e69d5607d3139111389a798387673f65bfe90bbf9a3854359151e1",
+                "size_in_bytes": 224424
+            },
+            {
+                "_path": "lib/libOpenGL.so.0.0.0",
+                "path_type": "hardlink",
+                "sha256": "15f935c231e69d5607d3139111389a798387673f65bfe90bbf9a3854359151e1",
+                "sha256_in_prefix": "15f935c231e69d5607d3139111389a798387673f65bfe90bbf9a3854359151e1",
+                "size_in_bytes": 224424
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "",
+    "sha256": "90777039b48529283df5f16383fc399866024257a8bd93de583f4730db1ab30a",
+    "size": 51767,
+    "subdir": "linux-64",
+    "timestamp": 1779728204,
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/libopengl-1.7.0-ha4b6fd6_3.conda",
+    "version": "1.7.0"
+}

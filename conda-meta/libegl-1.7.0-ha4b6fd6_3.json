@@ -1,0 +1,52 @@
+{
+    "arch": "x86_64",
+    "build": "ha4b6fd6_3",
+    "build_number": 3,
+    "build_string": "ha4b6fd6_3",
+    "channel": "conda-forge",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "libglvnd 1.7.0 ha4b6fd6_3"
+    ],
+    "extracted_package_dir": "/data/yuqingchi/.local/share/mamba/pkgs/https/conda.anaconda.org/conda-forge/linux-64/libegl-1.7.0-ha4b6fd6_3",
+    "files": [
+        "lib/libEGL.so.1",
+        "lib/libEGL.so.1.1.0"
+    ],
+    "fn": "libegl-1.7.0-ha4b6fd6_3.conda",
+    "license": "LicenseRef-libglvnd",
+    "link": {
+        "source": "/data/yuqingchi/.local/share/mamba/pkgs/https/conda.anaconda.org/conda-forge/linux-64/libegl-1.7.0-ha4b6fd6_3",
+        "type": 1
+    },
+    "md5": "75e9f795be506c96dd43cb09c7c8d557",
+    "name": "libegl",
+    "package_tarball_full_path": "/data/yuqingchi/.local/share/mamba/pkgs/https/conda.anaconda.org/conda-forge/linux-64/libegl-1.7.0-ha4b6fd6_3.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "lib/libEGL.so.1",
+                "path_type": "softlink",
+                "sha256_in_prefix": "165cc6f3afeeb719a5a487136901b8ceab7148c59856670bcd7d723286c8e4f9",
+                "size_in_bytes": 93424
+            },
+            {
+                "_path": "lib/libEGL.so.1.1.0",
+                "path_type": "hardlink",
+                "sha256": "a9b518e1f7b0685a66771cc22e6f056cfcab42ed6f1cd8ac154fc36412d4708f",
+                "sha256_in_prefix": "165cc6f3afeeb719a5a487136901b8ceab7148c59856670bcd7d723286c8e4f9",
+                "size_in_bytes": 93424
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "",
+    "sha256": "9a25ea93e8272785405a21d30f84e620befb1d545f6dfaae18f06103b5df0443",
+    "size": 46500,
+    "subdir": "linux-64",
+    "timestamp": 1779728188,
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/libegl-1.7.0-ha4b6fd6_3.conda",
+    "version": "1.7.0"
+}

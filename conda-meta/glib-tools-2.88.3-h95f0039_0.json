@@ -1,0 +1,201 @@
+{
+    "arch": "x86_64",
+    "build": "h95f0039_0",
+    "build_number": 0,
+    "build_string": "h95f0039_0",
+    "channel": "conda-forge",
+    "constrains": [],
+    "depends": [
+        "libglib ==2.88.3 h0d30a3d_0",
+        "libffi",
+        "libgcc >=14",
+        "__glibc >=2.17,<3.0.a0"
+    ],
+    "extracted_package_dir": "/data/yuqingchi/.local/share/mamba/pkgs/https/conda.anaconda.org/conda-forge/linux-64/glib-tools-2.88.3-h95f0039_0",
+    "files": [
+        "bin/gapplication",
+        "bin/gdbus",
+        "bin/gi-compile-repository",
+        "bin/gi-decompile-typelib",
+        "bin/gi-inspect-typelib",
+        "bin/gio",
+        "bin/gio-querymodules",
+        "bin/glib-compile-schemas",
+        "bin/gresource",
+        "bin/gsettings",
+        "lib/libgio-2.0.so",
+        "lib/libgirepository-2.0.so",
+        "lib/libglib-2.0.so",
+        "lib/libgmodule-2.0.so",
+        "lib/libgobject-2.0.so",
+        "lib/libgthread-2.0.so",
+        "share/bash-completion/completions/gapplication",
+        "share/bash-completion/completions/gdbus",
+        "share/bash-completion/completions/gio",
+        "share/bash-completion/completions/gresource",
+        "share/bash-completion/completions/gsettings"
+    ],
+    "fn": "glib-tools-2.88.3-h95f0039_0.conda",
+    "license": "LGPL-2.1-or-later",
+    "link": {
+        "source": "/data/yuqingchi/.local/share/mamba/pkgs/https/conda.anaconda.org/conda-forge/linux-64/glib-tools-2.88.3-h95f0039_0",
+        "type": 1
+    },
+    "md5": "841fd9387fd3f24ea69a4f679242e32c",
+    "name": "glib-tools",
+    "package_tarball_full_path": "/data/yuqingchi/.local/share/mamba/pkgs/https/conda.anaconda.org/conda-forge/linux-64/glib-tools-2.88.3-h95f0039_0.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "bin/gapplication",
+                "path_type": "hardlink",
+                "sha256": "9aed95f277494cf0810ab6678aa798cd21f54a1669fb4b689fe78fa9e91391f1",
+                "sha256_in_prefix": "6deb2ab307d2a9b6bf721961ee03c05b249869d5c7d92aad00625f92163844b0",
+                "size_in_bytes": 30704
+            },
+            {
+                "_path": "bin/gdbus",
+                "path_type": "hardlink",
+                "sha256": "bae3265a96f0f865c8022490fd7e018cf35cf875ce0ed969096cef278346e3ba",
+                "sha256_in_prefix": "4421c9e6b3ce6092d7d53092d74b87f85458ea15911d64f71727d26b34db8271",
+                "size_in_bytes": 64808
+            },
+            {
+                "_path": "bin/gi-compile-repository",
+                "path_type": "hardlink",
+                "sha256": "ab72fc45a969b1c335e7d2ddf2c0b9c57655b4365033375bb914b09a879dc249",
+                "sha256_in_prefix": "e5d00bd1043b6b33dc47253fea01895ff2aed45e0196fa5d3ed067c3a3e76d4f",
+                "size_in_bytes": 222672
+            },
+            {
+                "_path": "bin/gi-decompile-typelib",
+                "path_type": "hardlink",
+                "sha256": "68552883e35dd1375637bbe6c6dc2a715a03bffbf273e1b292734e4457635ba2",
+                "sha256_in_prefix": "68552883e35dd1375637bbe6c6dc2a715a03bffbf273e1b292734e4457635ba2",
+                "size_in_bytes": 58728
+            },
+            {
+                "_path": "bin/gi-inspect-typelib",
+                "path_type": "hardlink",
+                "sha256": "dd343c86b44c9e5eeced3cdf74e789810ad274d87080c02bc0ea30aa7655b749",
+                "sha256_in_prefix": "dd343c86b44c9e5eeced3cdf74e789810ad274d87080c02bc0ea30aa7655b749",
+                "size_in_bytes": 16664
+            },
+            {
+                "_path": "bin/gio",
+                "path_type": "hardlink",
+                "sha256": "5afb4b24a2572ee5238c2faa61379a687532ee40c4c94ff46bce01f706f0b6c3",
+                "sha256_in_prefix": "ecac9c3f845f5639a5cbbb702b8b2cdfa42bf1c553f34480bc4ebf4d7cc2fba9",
+                "size_in_bytes": 115216
+            },
+            {
+                "_path": "bin/gio-querymodules",
+                "path_type": "hardlink",
+                "sha256": "49f9695594ae740dca0cf28d1ae183777c1df91e70d6cc0a6cc8a1f15d234897",
+                "sha256_in_prefix": "49f9695594ae740dca0cf28d1ae183777c1df91e70d6cc0a6cc8a1f15d234897",
+                "size_in_bytes": 21480
+            },
+            {
+                "_path": "bin/glib-compile-schemas",
+                "path_type": "hardlink",
+                "sha256": "c25b49152a8b0b3a9a48796e8f2899108de322ac30a756448c193f8c8b4611b2",
+                "sha256_in_prefix": "c73579eea62e241ff463caba94eebdcf2dba156797da40d14d42f1d28f97449a",
+                "size_in_bytes": 68632
+            },
+            {
+                "_path": "bin/gresource",
+                "path_type": "hardlink",
+                "sha256": "f6ca144a53efc97044d351d2d0ad5d28d955711157d41cef983ef37d34e103fb",
+                "sha256_in_prefix": "0bf1ffc9757166b19ae9e880e618554f874526cd8158a90d2a82081bdd832535",
+                "size_in_bytes": 25696
+            },
+            {
+                "_path": "bin/gsettings",
+                "path_type": "hardlink",
+                "sha256": "e143a2b480ae98a68995377bb05e076c57153ce4ea5473cf0268ac0fee99b0bc",
+                "sha256_in_prefix": "6a0ab0fe11c0ad83a26ae1b806a760526dd1542fe068dcaba85b50041ebc7fd9",
+                "size_in_bytes": 36776
+            },
+            {
+                "_path": "lib/libgio-2.0.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "efd7b72250c663359da704c0afc2f6030936fb4792747f853cf7b26efff8aa58",
+                "size_in_bytes": 15
+            },
+            {
+                "_path": "lib/libgirepository-2.0.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "11375cd3a28d3090745045767563a7f71651d0a66a87f3d5b83947b1d9498357",
+                "size_in_bytes": 24
+            },
+            {
+                "_path": "lib/libglib-2.0.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "4704d5b2edb2f2784d7d71e7298f9a836cc486511e7584add9f99f11c8ef741c",
+                "size_in_bytes": 16
+            },
+            {
+                "_path": "lib/libgmodule-2.0.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "73b90ea00c8f930fc2a9ceff6f68b8c4b6f23cb21c19c1efe04b99d8f318a18e",
+                "size_in_bytes": 19
+            },
+            {
+                "_path": "lib/libgobject-2.0.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "f6d4c25bd9836e4f1b25043a93075d52c8ea383992f303cf04789c832bcbea30",
+                "size_in_bytes": 19
+            },
+            {
+                "_path": "lib/libgthread-2.0.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "131322ecb34ca1c3cd3cd793a3777b1fdc2ff34c4165b7eccc3a4cc4178c3cdb",
+                "size_in_bytes": 19
+            },
+            {
+                "_path": "share/bash-completion/completions/gapplication",
+                "path_type": "hardlink",
+                "sha256": "74be8dea6107b97cca5afa807d017898c9e7e30a18e4c6cc864402f1c2bc55e4",
+                "sha256_in_prefix": "74be8dea6107b97cca5afa807d017898c9e7e30a18e4c6cc864402f1c2bc55e4",
+                "size_in_bytes": 2370
+            },
+            {
+                "_path": "share/bash-completion/completions/gdbus",
+                "path_type": "hardlink",
+                "sha256": "3f00ef7cd16a4fe2dd50604a4bbbc93e232ff433f7b91f67089546aa31c18b88",
+                "sha256_in_prefix": "3f00ef7cd16a4fe2dd50604a4bbbc93e232ff433f7b91f67089546aa31c18b88",
+                "size_in_bytes": 1809
+            },
+            {
+                "_path": "share/bash-completion/completions/gio",
+                "path_type": "hardlink",
+                "sha256": "2ad236bff3bda3d4e68f0db1d776ef8c51463ac71e04c73076d0598f432401a1",
+                "sha256_in_prefix": "2ad236bff3bda3d4e68f0db1d776ef8c51463ac71e04c73076d0598f432401a1",
+                "size_in_bytes": 4020
+            },
+            {
+                "_path": "share/bash-completion/completions/gresource",
+                "path_type": "hardlink",
+                "sha256": "7e15ef721b7efef3e387914770998a75282a3c1b9b1ba76cc69594d8ee9f1833",
+                "sha256_in_prefix": "7e15ef721b7efef3e387914770998a75282a3c1b9b1ba76cc69594d8ee9f1833",
+                "size_in_bytes": 2188
+            },
+            {
+                "_path": "share/bash-completion/completions/gsettings",
+                "path_type": "hardlink",
+                "sha256": "8cfa89cc6819139176f21c9e95b408ef3b9c4f257c4c0b87f0fe3dc0f7b9d868",
+                "sha256_in_prefix": "8cfa89cc6819139176f21c9e95b408ef3b9c4f257c4c0b87f0fe3dc0f7b9d868",
+                "size_in_bytes": 4218
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "",
+    "sha256": "ccdad3d9149ca12353583818bdfde9f66753da7e8ea6dd35a6312062e2fe60d2",
+    "size": 238245,
+    "subdir": "linux-64",
+    "timestamp": 1785442107,
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/glib-tools-2.88.3-h95f0039_0.conda",
+    "version": "2.88.3"
+}

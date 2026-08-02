@@ -1,0 +1,53 @@
+{
+    "arch": "x86_64",
+    "build": "ha4b6fd6_3",
+    "build_number": 3,
+    "build_string": "ha4b6fd6_3",
+    "channel": "conda-forge",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "libglvnd 1.7.0 ha4b6fd6_3",
+        "xorg-libx11 >=1.8.13,<2.0a0"
+    ],
+    "extracted_package_dir": "/data/yuqingchi/.local/share/mamba/pkgs/https/conda.anaconda.org/conda-forge/linux-64/libglx-1.7.0-ha4b6fd6_3",
+    "files": [
+        "lib/libGLX.so.0",
+        "lib/libGLX.so.0.0.0"
+    ],
+    "fn": "libglx-1.7.0-ha4b6fd6_3.conda",
+    "license": "LicenseRef-libglvnd",
+    "link": {
+        "source": "/data/yuqingchi/.local/share/mamba/pkgs/https/conda.anaconda.org/conda-forge/linux-64/libglx-1.7.0-ha4b6fd6_3",
+        "type": 1
+    },
+    "md5": "ec3c4350aa0261bf7f87b8ca15c8e80e",
+    "name": "libglx",
+    "package_tarball_full_path": "/data/yuqingchi/.local/share/mamba/pkgs/https/conda.anaconda.org/conda-forge/linux-64/libglx-1.7.0-ha4b6fd6_3.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "lib/libGLX.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "b751c6d86c6effb9f2a973e6eb720ab13e9f1f8b540817a63f5796fd4c8fd129",
+                "size_in_bytes": 348376
+            },
+            {
+                "_path": "lib/libGLX.so.0.0.0",
+                "path_type": "hardlink",
+                "sha256": "b751c6d86c6effb9f2a973e6eb720ab13e9f1f8b540817a63f5796fd4c8fd129",
+                "sha256_in_prefix": "b751c6d86c6effb9f2a973e6eb720ab13e9f1f8b540817a63f5796fd4c8fd129",
+                "size_in_bytes": 348376
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "",
+    "sha256": "2f74713c9ca408ea84e88a30a9028153e7b553e8bb42e06139eac9a753c27da9",
+    "size": 76586,
+    "subdir": "linux-64",
+    "timestamp": 1779728199,
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/libglx-1.7.0-ha4b6fd6_3.conda",
+    "version": "1.7.0"
+}

@@ -1,0 +1,12 @@
+prefix=/data/yuqingchi/Code/AgenticVLA/third_party/imagemagick_env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libraw
+Description: Raw image decoder library (thread-safe)
+Requires: lcms2
+Version: 0.22.2
+Libs: -L${libdir} -lraw_r -lstdc++ -fopenmp
+Libs.private: -ljpeg 
+Cflags: -I${includedir}/libraw -I${includedir}
